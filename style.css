@@ -55,11 +55,10 @@ footer {
 }
 
 .section-header p {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 300;
-    letter-spacing: 4px;
     color: var(--text-dark);
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 .section-header h1 {
