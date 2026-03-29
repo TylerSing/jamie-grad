@@ -3,53 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex, nofollow">
     <title>Jamie Cahoon | Graduation 2026</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Pinyon+Script&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <header class="hero">
-        <span class="school-tag">Walla Walla University</span>
-        <h1>Jamie Cahoon</h1>
-        <p class="degree">Bachelor of Arts in English</p>
-        <div class="class-year" style="margin-top:20px; font-style: italic;">Class of Two Thousand Twenty-Six</div>
+    <header class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('photos/landscape.jpeg');">
+        <div class="banner-overlay">
+            <p>Walla Walla University</p>
+            <h1>Jamie Cahoon</h1>
+            <h2>Bachelor of Arts in English</h2>
+            <p>Class of 2026</p>
+        </div>
     </header>
 
     <main class="info-container">
-        <section class="rsvp-banner">
-            <h2 class="cursive" style="font-size: 3rem; color: var(--plum);">A Celebration</h2>
-            <p>Please join us as we celebrate Jamie's graduation and achievements.</p>
-            <a href="JAMIE_GOOGLE_FORM_URL" target="_blank" class="btn-rsvp">Kindly RSVP Here</a>
-        </section>
-
-        <div class="details-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 3rem;">
-            
-            <div class="detail-card" style="background: white; padding: 2rem; border-radius: 15px; text-align: center; box-shadow: var(--shadow);">
-                <h3 class="cursive" style="font-size: 2rem;">The Itinerary</h3>
-                <p>Full weekend schedule and ceremony locations.</p>
-                <a href="schedule.html" style="margin-top: 15px; display: inline-block; color: var(--gold); text-decoration: none; font-weight: bold; border-bottom: 2px solid var(--gold);">View Details →</a>
-            </div>
-            
-            <div class="detail-card" style="background: white; padding: 2rem; border-radius: 15px; text-align: center; box-shadow: var(--shadow);">
-                <h3 class="cursive" style="font-size: 2rem;">Contact Us</h3>
-                <p>Reach out with any questions regarding the festivities.</p>
-                <a href="contacts.html" style="margin-top: 15px; display: inline-block; color: var(--gold); text-decoration: none; font-weight: bold; border-bottom: 2px solid var(--gold);">View Contacts →</a>
+        <div class="invitation">
+            <div class="headshot">
+                <img src="photos/headshot.jpeg">
             </div>
 
-            <div class="detail-card" style="background: white; padding: 2rem; border-radius: 15px; text-align: center; box-shadow: var(--shadow);">
-                <h3 class="cursive" style="font-size: 2rem;">Campus Map</h3>
-                <p>Download the official map for parking and building info.</p>
-                <a href="wwu_campus_map.pdf" download style="margin-top: 15px; display: inline-block; color: var(--gold); text-decoration: none; font-weight: bold; border-bottom: 2px solid var(--gold);">Download PDF ↓</a>
+            <div>
+                <h2>You're Invited!</h2>
+                <div style="padding-bottom: 1.2rem">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf-XNSzzdi9Q3JXaRH5UMClVHbPIYo3iOfGfonDqsUiySdWdw/viewform?usp=preview" target="_blank" class="btn-rsvp">RSVP</a>
+                </div>
+
+                <p>Please join me and my family as we celebrate this milestone in my life. Thank you for all of your support along the way!</p>
+                
+                
+            </div>
+        </div>
+
+        <div class="banner-card">
+            <div class="icon">🥳</div>
+            <div>
+                <h1>Celebratory Open House</h1>
+                <p>Stop by to congratulate Jamie for her accomplishments (we have snacks too). Please RSVP with the link above.</p>
+                <div class="links">
+                    <span>📍 <a href="https://www.google.com/maps/search/?api=1&query=224+NW+Schnabel+Lane+College+Place+WA" target="_blank" class="btn-secondary">224 NW Schnabel Lane</a></span>
+                    <span>🕒 Saturday 3-5 PM</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner-card">
+            <div class="icon">🎓</div>
+            <div>
+                <h1>Commencement Ceremony</h1>
+                <p>The actual thing. Hopefully you know what this one is.</p>
+                <div class="links">
+                    <span>📍 <a href="https://maps.app.goo.gl/xNmxNzuYu9B9smxAA" target="_blank" class="btn-secondary">Centennial Green</a></span>
+                    <span>🕒 Sunday 8:30 AM</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="details-grid">
+            <div class="detail-card">
+                <div class="icon">
+                    <img src="icons/house.svg" width="40" height="40">
+                </div>
+                <h1>Lodging</h1>
+                <p>Both hotels and RV parking spaces are available. The La Quinta and Holiday Inn Express are my recommendation</p>
+                <a href="https://business.wwvchamber.com/list/ql/lodging-travel-15?c=109&q=&st=1" class="btn-secondary">Hotel Options →</a>
+                <a href="https://wwuform.formstack.com/forms/rv_space_rental" class="btn-secondary">RV Space Rental →</a>
             </div>
 
+            <div class="detail-card">
+                <div class="icon">🎓</div>
+                <h1>Weekend Itinerary</h1>
+                <p>View the full itinerary and ceremony locations.</p>
+                <a href="schedule.html" class="btn-secondary">View Details →</a>
+            </div>
+
+            <div class="detail-card">
+                <div class="icon">🗺️</div>
+                <h1>Campus Map</h1>
+                <p>Download the map for parking and building info.</p>
+                <a href="wwu_campus_map.pdf" download class="btn-secondary">Download PDF ↓</a>
+            </div>
+
+            <div class="detail-card">
+                <div class="icon">
+                    <img src="icons/rain.svg" width="40" height="40">
+                </div>
+                <h1>Weather</h1>
+                <p>Unfortunately, no matter the weather, commencement will happen outside on Centennial Green. Make sure to bring a jacket just in case.</p>
+                <a href="https://weather.com/weather/hourbyhour/l/4f5ed2e91936d17a579059fb443ac13ba6812a4ce660780422a62503f3a103cb" class="btn-secondary">View Forecast →</a>
+            </div>
+
+            <div class="detail-card">
+                <div class="icon">
+                    <img src="icons/youtube.svg" width="40" height="40">
+                </div>
+                <h1>Livestream</h1>
+                <p>If you are unable to make it to the events, they will be available on YouTube. WWU will stream Consecration and Commencement. Uchurch will stream Baccalaureate.</p>
+                <a href="https://www.youtube.com/@WallaWallaUniversity/featured" class="btn-secondary">WWU Youtube →</a>
+                <a href="https://www.youtube.com/@WWUChurch" class="btn-secondary">UChurch Youtube →</a>
+            </div>
+
+            <div class="detail-card">
+                <div class="icon">
+                    <img src="icons/car.svg" width="40" height="40">
+                </div>
+                <h1>Parking</h1>
+                <p>Parking is available all over campus. See the campus map for available parking lots. The lot by Sittner hall is one of the easiest for all weekend events.</p>
+                <a href="https://maps.app.goo.gl/mPSVx5HLzYJDGmB4A" class="btn-secondary">Sittner Lot →</a>
+            </div>
+        </div>
+    
+        <div style="text-align: center; margin-top: 3rem;">
+            <p>Still have questions?</p>
+            <a href="contacts.html" class="btn-contact">Contact Me</a>
         </div>
     </main>
 
-    <footer style="text-align: center; padding: 4rem; color: #7f8c8d; font-size: 0.9rem;">
-        <p>❦ Celebrating Jamie Cahoon | 2026 ❦</p>
-    </footer>
-
+    <footer>Jmie Cahoon | Class of 2026</footer>
 </body>
 </html>
